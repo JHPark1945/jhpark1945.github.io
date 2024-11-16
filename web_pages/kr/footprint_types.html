@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Embedded engineer J.H. Park
+        </title>
+    </head>
+    <body>
+        <h2>
+            <a href="https://jhpark1945.github.io/">
+                Embedded system designer J.H. Park
+            </a>
+        </h2>
+        
+        <h1>
+            Footprint types
+        </h1>
+        
+        <h2>
+            Through-Hole (TH) Footprint
+        </h2>
+        
+        <strong>설명</strong> : PCB를 관통하는 구멍(홀)을 통해 부품의 핀이 삽입되고 납땜되는 방식.
+        <br><br>
+        
+        <strong>특징</strong> : 견고한 연결을 제공. DIP, TO, SIP 패키지에서 주로 사용. 수작업 또는 자동화된 삽입 공정에서 사용됨.
+        <br><br>
+        
+        <strong>예시</strong> : 저항, 커패시터(리드 타입), 트랜지스터, 릴레이.
+        <br><br>
+        
+        <h2>
+            Surface-Mount Technology (SMT) Footprint
+        </h2>
+        
+        <strong>설명</strong> : PCB 표면에 직접 부품을 장착하며, 납땜 패드가 부품 핀 또는 단자와 맞닿음.
+        <br><br>
+        
+        <strong>특징</strong> : 부품 크기와 PCB 크기를 최소화 가능. 대량 자동화 생산에 적합. 고주파 특성이 우수함.
+        <br><br>
+        
+        <strong>종류</strong> :
+        <br>
+        
+        <strong>SOIC</strong> : 소형 IC에 사용되는 평평한 패드.
+        <br>
+        
+        <strong>QFP</strong> : 네 면에 핀이 배열된 IC용.
+        <br>
+        
+        <strong>BGA</strong> : PCB 아래쪽에 볼 형태의 접촉점을 가진 패드.
+        <br>
+        
+        <strong>QFN</strong> : 노출된 히트싱크와 패드를 가진 소형 고밀도 패키지용.
+        <br>
+        
+        <h2>
+            Chip Footprint
+        </h2>
+        
+        <strong>설명</strong> : 칩 형태의 부품에 사용되는 소형 납땜 패드.
+        <br><br>
+        
+        <strong>특징</strong> : 소형 부품(칩 저항, 커패시터)에 적합. 일반적으로 직사각형 또는 정사각형의 단순한 패드 형태.
+        <br><br>
+        
+        <strong>예시</strong> : 0603, 0805, 1206 크기 표준으로 분류.
+        <br><br>
+        
+        <h2>
+            Connector Footprint
+        </h2>
+        
+        <storng>설명</storng> : 전원, 데이터 또는 신호를 연결하는 커넥터용 Footprint.
+        <br><br>
+        
+        <strong>특징</strong> : 핀 간격과 핀 배열이 중요. 다양한 커넥터 표준에 따라 설계.
+        <br><br>
+        
+        <strong>예시</strong> : USB, HDMI, RJ45, Molex 커넥터.
+        <br><br>
+        
+        <h2>
+            Test Point Footprint
+        </h2>
+        
+        <strong>설명</strong> : PCB 테스트 및 디버깅을 위해 신호 측정용으로 설계된 패드.
+        <br><br>
+        
+        <strong>특징</strong> : 표면 패드 또는 Through-Hole 형태로 제공. 프로브로 쉽게 측정 가능하도록 배치.
+        <br><br>
+        
+        <strong>용도</strong> : 제품 검사, 회로 디버깅.
+        <br><br>
+        
+        <h2>
+            Mechanical Footprint
+        </h2>
+        
+        <strong>설명</strong> : PCB의 기계적 요소를 위한 구조적 디자인.
+        <br><br>
+        
+        <strong>특징</strong> : 나사 구멍, 스탠드오프, 히트싱크 부착 부분 등. PCB 조립과 외부 하우징 설계에 필수적.
+        <br><br>
+        
+        <h2>
+            Mixed Technology Footprint
+        </h2>
+        
+        <strong>설명</strong> : Through-Hole과 SMT 방식이 혼합된 Footprint.
+        <br><br>
+        
+        <strong>특징</strong> : 동일 부품에서 두 가지 기술을 모두 활용.
+        <br><br>
+        
+        <strong>예</strong> : 파워 모듈, 커넥터 등이 PCB 표면에 부착되면서 동시에 핀이 관통.
+        <br><br>
+        
+        <h2>
+            Custom Footprint
+        </h2>
+        
+        <strong>설명</strong> : 표준 부품에 맞지 않는 특수 부품이나 맞춤 설계 부품에 사용.
+        <br><br>
+        
+        <strong>특징</strong>: 사용자 정의 규격에 따라 설계. 특수 목적 기기에서 사용.
+        <br><br>
+
+        <h2>
+            Footprint 설계 시 고려사항
+        </h2>
+        
+        <strong>부품 크기</strong> : 부품의 실제 크기와 핀 배열을 정확히 측정.
+        <br>
+        
+        <strong>패드 크기 및 간격</strong> : 납땜 및 신뢰성에 영향을 미침.
+        <br>
+        
+        <strong>열 방출</strong> : 열 관리를 위한 히트싱크 패드 포함 여부.
+        <br>
+        
+        <strong>테스트 및 조립 편의성</strong> : 충분한 공간 확보.
+        <br>
+        
+        <strong>제조 표준</strong> : IPC-7351 표준 준수 여부 확인.
+        <br><br>
+
+    </body>
+</html>
